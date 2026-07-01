@@ -1,0 +1,6 @@
+placement_id,family_id,landlord_id,status,next_step,last_updated
+PLC-001,FAM-001,LL-001,Tour scheduled,Confirm viewing time,2026-06-27
+PLC-002,FAM-002,LL-002,Application pending,Collect documents,2026-06-26
+PLC-003,FAM-003,LL-003,Searching,Send available units,2026-06-25
+PLC-004,FAM-004,LL-004,Matched,Prepare move-in plan,2026-06-27
+PLC-005,FAM-006,LL-006,Tour scheduled,Coordinate transportation,2026-06-27

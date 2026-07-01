@@ -1,0 +1,15 @@
+point_type,label,description,city,zip,latitude,longitude
+Landlord/property,LL-001 - Decatur,Type: Apartment; Bedrooms: 2; Voucher status: Yes; Contact status: Interested,Decatur,30030,33.7748,-84.2963
+Landlord/property,LL-002 - Marietta,Type: Duplex; Bedrooms: 3; Voucher status: Maybe; Contact status: Follow up,Marietta,30060,33.9526,-84.5499
+Landlord/property,LL-003 - Smyrna,Type: Apartment; Bedrooms: 1; Voucher status: Yes; Contact status: Active partner,Smyrna,30080,33.8838,-84.5144
+Landlord/property,LL-004 - Norcross,Type: Townhome; Bedrooms: 3; Voucher status: Yes; Contact status: Interested,Norcross,30071,33.9412,-84.2135
+Landlord/property,LL-005 - Atlanta,Type: Apartment; Bedrooms: 1; Voucher status: No; Contact status: Not available,Atlanta,30318,33.7866,-84.4456
+Landlord/property,LL-006 - Clarkston,Type: Apartment; Bedrooms: 3; Voucher status: Yes; Contact status: Active partner,Clarkston,30021,33.8095,-84.2396
+Landlord/property,LL-007 - Tucker,Type: Single-family; Bedrooms: 4; Voucher status: Maybe; Contact status: Follow up,Tucker,30084,33.8545,-84.2171
+Landlord/property,LL-008 - Dunwoody,Type: Apartment; Bedrooms: 2; Voucher status: Yes; Contact status: Interested,Dunwoody,30338,33.9462,-84.3346
+Community resource,Community Food Pantry A,Category: Food assistance; Eligibility: Open intake weekly,Decatur,30030,33.7755,-84.2915
+Community resource,Transit Voucher Program B,Category: Transit support; Eligibility: Referral required,Atlanta,30318,33.7895,-84.4405
+Community resource,Workforce Center C,Category: Job support; Eligibility: Appointment recommended,Marietta,30060,33.9511,-84.546
+Community resource,Childcare Referral Network D,Category: Childcare; Eligibility: Income-based eligibility,Clarkston,30021,33.809,-84.2442
+Community resource,Housing Legal Aid E,Category: Legal aid; Eligibility: Screening required,Smyrna,30080,33.8842,-84.516
+Community resource,Furniture Bank F,Category: Furniture; Eligibility: Partner referral only,Norcross,30071,33.944,-84.2102

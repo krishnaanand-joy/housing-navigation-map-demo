@@ -1,0 +1,9 @@
+landlord_id,property_type,city,zip,bedrooms,rent_min,rent_max,accepts_vouchers,contact_status,last_contact_date,latitude,longitude
+LL-001,Apartment,Decatur,30030,2,1500,1750,Yes,Interested,2026-06-24,33.7748,-84.2963
+LL-002,Duplex,Marietta,30060,3,1700,2050,Maybe,Follow up,2026-06-25,33.9526,-84.5499
+LL-003,Apartment,Smyrna,30080,1,1200,1450,Yes,Active partner,2026-06-23,33.8838,-84.5144
+LL-004,Townhome,Norcross,30071,3,1800,2200,Yes,Interested,2026-06-20,33.9412,-84.2135
+LL-005,Apartment,Atlanta,30318,1,1350,1650,No,Not available,2026-06-18,33.7866,-84.4456
+LL-006,Apartment,Clarkston,30021,3,1550,1900,Yes,Active partner,2026-06-26,33.8095,-84.2396
+LL-007,Single-family,Tucker,30084,4,2100,2500,Maybe,Follow up,2026-06-22,33.8545,-84.2171
+LL-008,Apartment,Dunwoody,30338,2,1600,1950,Yes,Interested,2026-06-21,33.9462,-84.3346

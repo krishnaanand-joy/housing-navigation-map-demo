@@ -1,0 +1,7 @@
+family_id,household_size,target_city,target_zip,move_in_deadline,priority_level,current_status,assigned_caseworker
+FAM-001,3,Decatur,30030,2026-07-15,High,Searching,CW-01
+FAM-002,5,Marietta,30060,2026-07-22,High,Application pending,CW-02
+FAM-003,2,Smyrna,30080,2026-08-01,Medium,Searching,CW-01
+FAM-004,4,Norcross,30071,2026-07-30,Medium,Matched,CW-03
+FAM-005,1,Atlanta,30318,2026-08-10,Low,Intake complete,CW-02
+FAM-006,6,Clarkston,30021,2026-07-18,High,Searching,CW-03

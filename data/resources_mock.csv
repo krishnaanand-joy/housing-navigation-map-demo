@@ -1,0 +1,7 @@
+resource_id,category,resource_name,city,zip,eligibility_notes,latitude,longitude
+RES-001,Food assistance,Community Food Pantry A,Decatur,30030,Open intake weekly,33.7755,-84.2915
+RES-002,Transit support,Transit Voucher Program B,Atlanta,30318,Referral required,33.7895,-84.4405
+RES-003,Job support,Workforce Center C,Marietta,30060,Appointment recommended,33.9511,-84.546
+RES-004,Childcare,Childcare Referral Network D,Clarkston,30021,Income-based eligibility,33.809,-84.2442
+RES-005,Legal aid,Housing Legal Aid E,Smyrna,30080,Screening required,33.8842,-84.516
+RES-006,Furniture,Furniture Bank F,Norcross,30071,Partner referral only,33.944,-84.2102

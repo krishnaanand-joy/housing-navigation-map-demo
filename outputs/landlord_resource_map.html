@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b4f8d9c34f025ca46799a3d322b1250 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0b4f8d9c34f025ca46799a3d322b1250" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0b4f8d9c34f025ca46799a3d322b1250 = L.map(
+                "map_0b4f8d9c34f025ca46799a3d322b1250",
+                {
+                    center: [33.86446428571429, -84.36138571428572],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6179d018b524d7ff1131aa8313c0d1a9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6179d018b524d7ff1131aa8313c0d1a9.addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var marker_692beebaa5411b697ee83b994102e662 = L.marker(
+                [33.7748, -84.2963],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_6b8ad1e943baaff8a4f8ada9ba0173bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e3d0066b72de380dee119c015c5380d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e0b242b156551df1614f7b999172a18 = $(`<div id="html_4e0b242b156551df1614f7b999172a18" style="width: 100.0%; height: 100.0%;">         <b>LL-001 - Decatur</b><br>         Type: Landlord/property<br>         City: Decatur<br>         ZIP: 30030<br>         Type: Apartment; Bedrooms: 2; Voucher status: Yes; Contact status: Interested         </div>`)[0];
+                popup_5e3d0066b72de380dee119c015c5380d.setContent(html_4e0b242b156551df1614f7b999172a18);
+            
+        
+
+        marker_692beebaa5411b697ee83b994102e662.bindPopup(popup_5e3d0066b72de380dee119c015c5380d)
+        ;
+
+        
+    
+    
+            marker_692beebaa5411b697ee83b994102e662.bindTooltip(
+                `<div>
+                     LL-001 - Decatur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_692beebaa5411b697ee83b994102e662.setIcon(icon_6b8ad1e943baaff8a4f8ada9ba0173bf);
+            
+    
+            var marker_e963c5622cdee44224b5c9e835dc5b3c = L.marker(
+                [33.9526, -84.5499],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_07a9fa0bc613021173812e68aed9344f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caa84dc862638a691650772c09ab1838 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfec4739d60d162df21433503a56290e = $(`<div id="html_bfec4739d60d162df21433503a56290e" style="width: 100.0%; height: 100.0%;">         <b>LL-002 - Marietta</b><br>         Type: Landlord/property<br>         City: Marietta<br>         ZIP: 30060<br>         Type: Duplex; Bedrooms: 3; Voucher status: Maybe; Contact status: Follow up         </div>`)[0];
+                popup_caa84dc862638a691650772c09ab1838.setContent(html_bfec4739d60d162df21433503a56290e);
+            
+        
+
+        marker_e963c5622cdee44224b5c9e835dc5b3c.bindPopup(popup_caa84dc862638a691650772c09ab1838)
+        ;
+
+        
+    
+    
+            marker_e963c5622cdee44224b5c9e835dc5b3c.bindTooltip(
+                `<div>
+                     LL-002 - Marietta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e963c5622cdee44224b5c9e835dc5b3c.setIcon(icon_07a9fa0bc613021173812e68aed9344f);
+            
+    
+            var marker_3c0889b34189a15c3fda4c687f7c5e20 = L.marker(
+                [33.8838, -84.5144],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_684b3c72608c4f4af6814f9cfc60c26b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_148085c0a3ebcb85af28719aef706ca7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bf92a65463f2da13661a6b635606d13 = $(`<div id="html_1bf92a65463f2da13661a6b635606d13" style="width: 100.0%; height: 100.0%;">         <b>LL-003 - Smyrna</b><br>         Type: Landlord/property<br>         City: Smyrna<br>         ZIP: 30080<br>         Type: Apartment; Bedrooms: 1; Voucher status: Yes; Contact status: Active partner         </div>`)[0];
+                popup_148085c0a3ebcb85af28719aef706ca7.setContent(html_1bf92a65463f2da13661a6b635606d13);
+            
+        
+
+        marker_3c0889b34189a15c3fda4c687f7c5e20.bindPopup(popup_148085c0a3ebcb85af28719aef706ca7)
+        ;
+
+        
+    
+    
+            marker_3c0889b34189a15c3fda4c687f7c5e20.bindTooltip(
+                `<div>
+                     LL-003 - Smyrna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c0889b34189a15c3fda4c687f7c5e20.setIcon(icon_684b3c72608c4f4af6814f9cfc60c26b);
+            
+    
+            var marker_23ad078ee221451dfe65dddaa56b5a25 = L.marker(
+                [33.9412, -84.2135],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_a3717e31680af6a8807f14e1ed0a0afd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9260ee91e8b267844225c73d8a8cf539 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82d85ef22900e64bee040bc4e63e0ff3 = $(`<div id="html_82d85ef22900e64bee040bc4e63e0ff3" style="width: 100.0%; height: 100.0%;">         <b>LL-004 - Norcross</b><br>         Type: Landlord/property<br>         City: Norcross<br>         ZIP: 30071<br>         Type: Townhome; Bedrooms: 3; Voucher status: Yes; Contact status: Interested         </div>`)[0];
+                popup_9260ee91e8b267844225c73d8a8cf539.setContent(html_82d85ef22900e64bee040bc4e63e0ff3);
+            
+        
+
+        marker_23ad078ee221451dfe65dddaa56b5a25.bindPopup(popup_9260ee91e8b267844225c73d8a8cf539)
+        ;
+
+        
+    
+    
+            marker_23ad078ee221451dfe65dddaa56b5a25.bindTooltip(
+                `<div>
+                     LL-004 - Norcross
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_23ad078ee221451dfe65dddaa56b5a25.setIcon(icon_a3717e31680af6a8807f14e1ed0a0afd);
+            
+    
+            var marker_f0d7e98db4d28f9801192db3c4e860f4 = L.marker(
+                [33.7866, -84.4456],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_7b62254c4b46de8a363f6daacd4d94f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a09fcd0394b210f62ac41ea4efc8945c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_305c848038400bd5de62318b02de1838 = $(`<div id="html_305c848038400bd5de62318b02de1838" style="width: 100.0%; height: 100.0%;">         <b>LL-005 - Atlanta</b><br>         Type: Landlord/property<br>         City: Atlanta<br>         ZIP: 30318<br>         Type: Apartment; Bedrooms: 1; Voucher status: No; Contact status: Not available         </div>`)[0];
+                popup_a09fcd0394b210f62ac41ea4efc8945c.setContent(html_305c848038400bd5de62318b02de1838);
+            
+        
+
+        marker_f0d7e98db4d28f9801192db3c4e860f4.bindPopup(popup_a09fcd0394b210f62ac41ea4efc8945c)
+        ;
+
+        
+    
+    
+            marker_f0d7e98db4d28f9801192db3c4e860f4.bindTooltip(
+                `<div>
+                     LL-005 - Atlanta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0d7e98db4d28f9801192db3c4e860f4.setIcon(icon_7b62254c4b46de8a363f6daacd4d94f5);
+            
+    
+            var marker_7345e40911c0bcd530210e0186c1b9a4 = L.marker(
+                [33.8095, -84.2396],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_471919e8bddc419f1061f8b690e1808b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abb569f1a9191d972dc5b4e27b28f551 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_764cc3658524b56f5153e57efeb59eec = $(`<div id="html_764cc3658524b56f5153e57efeb59eec" style="width: 100.0%; height: 100.0%;">         <b>LL-006 - Clarkston</b><br>         Type: Landlord/property<br>         City: Clarkston<br>         ZIP: 30021<br>         Type: Apartment; Bedrooms: 3; Voucher status: Yes; Contact status: Active partner         </div>`)[0];
+                popup_abb569f1a9191d972dc5b4e27b28f551.setContent(html_764cc3658524b56f5153e57efeb59eec);
+            
+        
+
+        marker_7345e40911c0bcd530210e0186c1b9a4.bindPopup(popup_abb569f1a9191d972dc5b4e27b28f551)
+        ;
+
+        
+    
+    
+            marker_7345e40911c0bcd530210e0186c1b9a4.bindTooltip(
+                `<div>
+                     LL-006 - Clarkston
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7345e40911c0bcd530210e0186c1b9a4.setIcon(icon_471919e8bddc419f1061f8b690e1808b);
+            
+    
+            var marker_8a8da0d8e91bd90bc6d9888e374c72e9 = L.marker(
+                [33.8545, -84.2171],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_132f2bb527ad3b48254a87138c36d185 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb9eb7eb6f2144d5301390c8deb75c50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0322a65179bf3956790574d65f2e770 = $(`<div id="html_d0322a65179bf3956790574d65f2e770" style="width: 100.0%; height: 100.0%;">         <b>LL-007 - Tucker</b><br>         Type: Landlord/property<br>         City: Tucker<br>         ZIP: 30084<br>         Type: Single-family; Bedrooms: 4; Voucher status: Maybe; Contact status: Follow up         </div>`)[0];
+                popup_bb9eb7eb6f2144d5301390c8deb75c50.setContent(html_d0322a65179bf3956790574d65f2e770);
+            
+        
+
+        marker_8a8da0d8e91bd90bc6d9888e374c72e9.bindPopup(popup_bb9eb7eb6f2144d5301390c8deb75c50)
+        ;
+
+        
+    
+    
+            marker_8a8da0d8e91bd90bc6d9888e374c72e9.bindTooltip(
+                `<div>
+                     LL-007 - Tucker
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a8da0d8e91bd90bc6d9888e374c72e9.setIcon(icon_132f2bb527ad3b48254a87138c36d185);
+            
+    
+            var marker_be7c902416b00b54b7a09159124bdcd9 = L.marker(
+                [33.9462, -84.3346],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_d776291c5382b1a5a7b1f5417db37049 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa64af19a8010a7f3a69dcf77860c85c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89c33dabf56c6402c83cda0248ba11e2 = $(`<div id="html_89c33dabf56c6402c83cda0248ba11e2" style="width: 100.0%; height: 100.0%;">         <b>LL-008 - Dunwoody</b><br>         Type: Landlord/property<br>         City: Dunwoody<br>         ZIP: 30338<br>         Type: Apartment; Bedrooms: 2; Voucher status: Yes; Contact status: Interested         </div>`)[0];
+                popup_aa64af19a8010a7f3a69dcf77860c85c.setContent(html_89c33dabf56c6402c83cda0248ba11e2);
+            
+        
+
+        marker_be7c902416b00b54b7a09159124bdcd9.bindPopup(popup_aa64af19a8010a7f3a69dcf77860c85c)
+        ;
+
+        
+    
+    
+            marker_be7c902416b00b54b7a09159124bdcd9.bindTooltip(
+                `<div>
+                     LL-008 - Dunwoody
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_be7c902416b00b54b7a09159124bdcd9.setIcon(icon_d776291c5382b1a5a7b1f5417db37049);
+            
+    
+            var marker_8563594fd78be7c185082a0d83bdc3ae = L.marker(
+                [33.7755, -84.2915],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_4fcc481309ddd91110ccacaafd79d876 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d750b2767ac301984f128c74697deac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd6cfbc53f6fcc06463d9d3859161ea = $(`<div id="html_1cd6cfbc53f6fcc06463d9d3859161ea" style="width: 100.0%; height: 100.0%;">         <b>Community Food Pantry A</b><br>         Type: Community resource<br>         City: Decatur<br>         ZIP: 30030<br>         Category: Food assistance; Eligibility: Open intake weekly         </div>`)[0];
+                popup_4d750b2767ac301984f128c74697deac.setContent(html_1cd6cfbc53f6fcc06463d9d3859161ea);
+            
+        
+
+        marker_8563594fd78be7c185082a0d83bdc3ae.bindPopup(popup_4d750b2767ac301984f128c74697deac)
+        ;
+
+        
+    
+    
+            marker_8563594fd78be7c185082a0d83bdc3ae.bindTooltip(
+                `<div>
+                     Community Food Pantry A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8563594fd78be7c185082a0d83bdc3ae.setIcon(icon_4fcc481309ddd91110ccacaafd79d876);
+            
+    
+            var marker_1f52da97863293a6b09face5ae7439da = L.marker(
+                [33.7895, -84.4405],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_f5a6d16b80540a9ec7d9c420f97647e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c917229e6ad6d94ae49a678fceb3239 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_916e14ad3cb5bcbde4e6100ea15ce003 = $(`<div id="html_916e14ad3cb5bcbde4e6100ea15ce003" style="width: 100.0%; height: 100.0%;">         <b>Transit Voucher Program B</b><br>         Type: Community resource<br>         City: Atlanta<br>         ZIP: 30318<br>         Category: Transit support; Eligibility: Referral required         </div>`)[0];
+                popup_4c917229e6ad6d94ae49a678fceb3239.setContent(html_916e14ad3cb5bcbde4e6100ea15ce003);
+            
+        
+
+        marker_1f52da97863293a6b09face5ae7439da.bindPopup(popup_4c917229e6ad6d94ae49a678fceb3239)
+        ;
+
+        
+    
+    
+            marker_1f52da97863293a6b09face5ae7439da.bindTooltip(
+                `<div>
+                     Transit Voucher Program B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1f52da97863293a6b09face5ae7439da.setIcon(icon_f5a6d16b80540a9ec7d9c420f97647e0);
+            
+    
+            var marker_4c16057567fd46806e7a13c09de8fbff = L.marker(
+                [33.9511, -84.546],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_c5d6d2d350d064ca2ae680346448541b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c476ac1d8a23569504d1b9e4f54a0e10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef5922b7dfc1c0c05ced79eb7448001b = $(`<div id="html_ef5922b7dfc1c0c05ced79eb7448001b" style="width: 100.0%; height: 100.0%;">         <b>Workforce Center C</b><br>         Type: Community resource<br>         City: Marietta<br>         ZIP: 30060<br>         Category: Job support; Eligibility: Appointment recommended         </div>`)[0];
+                popup_c476ac1d8a23569504d1b9e4f54a0e10.setContent(html_ef5922b7dfc1c0c05ced79eb7448001b);
+            
+        
+
+        marker_4c16057567fd46806e7a13c09de8fbff.bindPopup(popup_c476ac1d8a23569504d1b9e4f54a0e10)
+        ;
+
+        
+    
+    
+            marker_4c16057567fd46806e7a13c09de8fbff.bindTooltip(
+                `<div>
+                     Workforce Center C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4c16057567fd46806e7a13c09de8fbff.setIcon(icon_c5d6d2d350d064ca2ae680346448541b);
+            
+    
+            var marker_ef77473cb3eacc780f3a117b720e1c68 = L.marker(
+                [33.809, -84.2442],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_e0f6871ce627ace04d4ed1c6dfe71f7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cce5971538bd3e953e3faf5eb8ec75b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5afe2627d73e670929ba3a3ae962d5e = $(`<div id="html_d5afe2627d73e670929ba3a3ae962d5e" style="width: 100.0%; height: 100.0%;">         <b>Childcare Referral Network D</b><br>         Type: Community resource<br>         City: Clarkston<br>         ZIP: 30021<br>         Category: Childcare; Eligibility: Income-based eligibility         </div>`)[0];
+                popup_cce5971538bd3e953e3faf5eb8ec75b2.setContent(html_d5afe2627d73e670929ba3a3ae962d5e);
+            
+        
+
+        marker_ef77473cb3eacc780f3a117b720e1c68.bindPopup(popup_cce5971538bd3e953e3faf5eb8ec75b2)
+        ;
+
+        
+    
+    
+            marker_ef77473cb3eacc780f3a117b720e1c68.bindTooltip(
+                `<div>
+                     Childcare Referral Network D
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ef77473cb3eacc780f3a117b720e1c68.setIcon(icon_e0f6871ce627ace04d4ed1c6dfe71f7d);
+            
+    
+            var marker_46de96024a58023da66a7848e3fffb57 = L.marker(
+                [33.8842, -84.516],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_d4517ae45cbd3ce54f09953aec07d553 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d54f3aab07d58340fc55c88d9d8eb9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81418dca5b04932e2c5ae93387a7b0d2 = $(`<div id="html_81418dca5b04932e2c5ae93387a7b0d2" style="width: 100.0%; height: 100.0%;">         <b>Housing Legal Aid E</b><br>         Type: Community resource<br>         City: Smyrna<br>         ZIP: 30080<br>         Category: Legal aid; Eligibility: Screening required         </div>`)[0];
+                popup_5d54f3aab07d58340fc55c88d9d8eb9c.setContent(html_81418dca5b04932e2c5ae93387a7b0d2);
+            
+        
+
+        marker_46de96024a58023da66a7848e3fffb57.bindPopup(popup_5d54f3aab07d58340fc55c88d9d8eb9c)
+        ;
+
+        
+    
+    
+            marker_46de96024a58023da66a7848e3fffb57.bindTooltip(
+                `<div>
+                     Housing Legal Aid E
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_46de96024a58023da66a7848e3fffb57.setIcon(icon_d4517ae45cbd3ce54f09953aec07d553);
+            
+    
+            var marker_e511bb8b66a21b94249ae39d171a820f = L.marker(
+                [33.944, -84.2102],
+                {
+}
+            ).addTo(map_0b4f8d9c34f025ca46799a3d322b1250);
+        
+    
+            var icon_2355f1cd7fcc049e839661defad0b1cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_611d6457b1b87403255393ae1e14f604 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_627b90038bcdde4ef620ebdcf1722afa = $(`<div id="html_627b90038bcdde4ef620ebdcf1722afa" style="width: 100.0%; height: 100.0%;">         <b>Furniture Bank F</b><br>         Type: Community resource<br>         City: Norcross<br>         ZIP: 30071<br>         Category: Furniture; Eligibility: Partner referral only         </div>`)[0];
+                popup_611d6457b1b87403255393ae1e14f604.setContent(html_627b90038bcdde4ef620ebdcf1722afa);
+            
+        
+
+        marker_e511bb8b66a21b94249ae39d171a820f.bindPopup(popup_611d6457b1b87403255393ae1e14f604)
+        ;
+
+        
+    
+    
+            marker_e511bb8b66a21b94249ae39d171a820f.bindTooltip(
+                `<div>
+                     Furniture Bank F
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e511bb8b66a21b94249ae39d171a820f.setIcon(icon_2355f1cd7fcc049e839661defad0b1cb);
+            
+</script>
+</html>
