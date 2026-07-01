@@ -1,0 +1,5 @@
+# Keep GitHub language stats focused on the source code.
+# The Folium map is generated HTML output, not hand-written project code.
+
+outputs/*.html linguist-generated=true
+outputs/*.db linguist-generated=true
